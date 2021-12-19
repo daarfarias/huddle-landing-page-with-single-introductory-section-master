@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  margin: 0;
+  box-sizing: box-content;
+}
+
+body {
+  width: 375px;
+  background-color: var(--violet);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+}
+header {
+  width: 90%;
+  font-family: "Poppins";
+}
+
+#huddle-img {
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#main-img {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  width: 80%;
+  color: white;
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 35px;
+
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+p {
+  width: 80%;
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: "Open Sans";
+  margin: auto;
+  color: hsla(0, 100%, 100%, 0.8);
+}
+
+.btn {
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+#register {
+  border: none;
+  width: 60%;
+  height: 45px;
+  border-radius: 1.5em;
+  color: var(--violet);
+  font-family: "Poppins";
+}
+.social-box {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+#facebook {
+  width: 5%;
+  padding: 10px;
+}
+
+#twitter {
+  width: 4%;
+  padding: 12px;
+}
+
+#instagram {
+  width: 5%;
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+  }
+  .container {
+    width: 1440px;
+    height: 800px;
+  }
+
+  #huddle-img {
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .main-box {
+    display: flex;
+  }
+
+  .img-box {
+    width: 55%;
+  }
+
+  #main-img {
+    width: 90%;
+    margin-left: 65px;
+    margin-top: 90px;
+  }
+
+  .text-box {
+    width: 45%;
+
+    text-align: left;
+  }
+
+  h1 {
+    width: 70%;
+    margin-top: 140px;
+    margin-left: 65px;
+    font-size: 2.4em;
+    text-align: left;
+  }
+
+  p {
+    width: 78%;
+    font-size: 1.1em;
+    text-align: left;
+  }
+
+  .btn {
+    text-align: left;
+    margin-left: 40px;
+  }
+  #register {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    margin-left: 30px;
+  }
+
+  .social-box {
+    margin-top: -70px;
+    text-align: right;
+    margin-right: 80px;
+  }
+  .icon {
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  #facebook {
+    width: 1.5%;
+    padding: 10px;
+  }
+
+  #twitter {
+    width: 1.2%;
+    padding: 12px;
+  }
+
+  #instagram {
+    width: 1.5%;
+    padding: 10px;
+  }
+}
