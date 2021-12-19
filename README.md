@@ -11,13 +11,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screen-desktop.png)
+![](./images/screen-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/huddlelandingpagewithsingleintroductorysectionmasterproject-p3gpM-mha)
+- Live Site URL: [Vercel](https://huddle-landing-page-with-single-introductory-section-6dxs9pksy.vercel.app/)
 
 
 ## Author
